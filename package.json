@@ -1,0 +1,29 @@
+{
+  "name": "task-19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main2.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "solo":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chiragsharmaaa/expensetracker-final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chiragsharmaaa/expensetracker-final/issues"
+  },
+  "homepage": "https://github.com/Chiragsharmaaa/expensetracker-final#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.23.0"
+  }
+}
